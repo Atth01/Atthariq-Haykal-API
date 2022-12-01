@@ -1,0 +1,24 @@
+.identity{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.identity td, .identity th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.identity tr:nth-child(even){background-color: #f2f2f2;}
+
+.identity tr:hover {background-color: #ddd;}
+
+.identity th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+.identity tr{
+    text-align: center;
+}

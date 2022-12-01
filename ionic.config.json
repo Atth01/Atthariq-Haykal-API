@@ -1,0 +1,7 @@
+{
+  "name": "zico",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

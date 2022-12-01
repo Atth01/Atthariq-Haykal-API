@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <table class="identity">
+    <tr>
+      <th>Nama</th>
+      <th>Umur</th>
+      <th>Email</th>
+    </tr>
+    <tr *ngFor="let data of allData">
+      <td>{{data.Nama}}</td>
+      <td>{{data.Umur}}</td>
+      <td>{{data.email}}</td>
+    </tr>
+  </table>
+</ion-content>
